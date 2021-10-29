@@ -226,7 +226,7 @@ a:focus {
     .navbar {
         position: absolute;
         width: 100%;
-        top: 35px;
+        /* top: 35px; */
         padding: 20px 60px;
         background: rgba(0, 0, 0, .1) !important;
         z-index: 9;
@@ -512,7 +512,7 @@ a:focus {
     position: relative;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .about .about-text p {
@@ -1897,7 +1897,7 @@ a:focus {
 
 .footer .container-fluid {
     padding: 90px 0 0 0;
-    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9)), url(../img/footer-bg.png);
+    background: linear-gradient(rgba(52, 49, 72, .9), rgba(52, 49, 72, .9));
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
